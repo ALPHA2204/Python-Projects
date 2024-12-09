@@ -12,6 +12,9 @@ UPI_id = input("Enter the UPI_id :")
 # Here we are going to the Defining the payment url.
 
 phonepe_url =  f'upi://pay?pa={UPI_id}&pn=Recipient%20Name&mc=1234'
+# '''The string upi://pay?pa={UPI_id}&pn=Recipient%20Name&mc=1234 is a Unified Payments Interface (UPI) payment URL. It is used to create a link that can initiate a UPI payment request on supported payment apps like PhonePe, Google Pay, Paytm, etc.
+
+# Here’s a detailed breakdown of the components:'''
 paytm_url =  f'upi://pay?pa={UPI_id}&pn=Recipient%20Name&mc=1234'
 google_pay_url =  f'upi://pay?pa={UPI_id}&pn=Recipient%20Name&mc=1234'
 
